@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-int i,a;
+int i,x;
 int head=0,tail=0;
 char s[8];
 
@@ -13,8 +13,8 @@ printf("Hello,%s!\n",s);
 printf("Tossing a coin...\n");
 
 for(i=0;i<3;i++){
-a=rand();
-if(a%2==0){
+x=rand();
+if(x%2==0){
 printf("Round %d: Head\n",i+1);
 head++;
 }
