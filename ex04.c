@@ -9,7 +9,7 @@ char s[8];
 printf("Tossing a coin...\n");
 
 for(i=0;i<3;i++){
-a=rand();
+x=rand();
 if(x%2==0){
 printf("Round %d: Head\n",i+1);
 head++;
