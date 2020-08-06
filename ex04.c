@@ -5,6 +5,10 @@ int main(){
 int i,x;
 int head=0,tail=0;
 char s[8];
+  
+printf("Who are you? ");
+scanf("%s",s);
+printf("Hello,%s!\n",s);
 
 printf("Tossing a coin...\n");
 
@@ -21,6 +25,9 @@ tail++;
 }
 
 printf("Heads: %d, Tails: %d\n", head, tail);
+  
+  if(head>tail) printf("you won");
+  else printf("you lost");
 
 return 0;
 }
