@@ -3,8 +3,12 @@
 
 int main(){
 int i,a;
-int heads=0,tails=0;
-char str[8];
+int head=0,tail=0;
+char s[8];
+
+printf("Who are you? ");
+scanf("%s",s);
+printf("Hello,%s!\n",s);
 
 printf("Tossing a coin...\n");
 
@@ -16,11 +20,11 @@ head++;
 }
 else{
 printf("Round %d: Tail\n",i+1);
-tails++;
+tail++;
 }
 }
 
-printf("Heads: %d, Tails: %d\n", heads, tails);
+printf("Heads: %d, Tails: %d\n", head, tail);
 
 return 0;
 }
